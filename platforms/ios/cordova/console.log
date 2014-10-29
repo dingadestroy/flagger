@@ -1,0 +1,13 @@
+2014-10-26 12:39:06.849 Flagger[25512:1817237] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/ronald/Library/Developer/CoreSimulator/Devices/34C5F68A-A0E1-4A36-BC99-036E79B19C98/data/Containers/Data/Application/D6F0547D-A5E3-4E9B-B8F0-A0E8B937D821/Library/Cookies/Cookies.binarycookies
+2014-10-26 12:39:07.011 Flagger[25512:1817237] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-26 12:39:07.012 Flagger[25512:1817237] Multi-tasking -> Device: YES, App: YES
+2014-10-26 12:39:07.036 Flagger[25512:1817237] Unlimited access to network resources
+2014-10-26 12:39:07.046 Flagger[25512:1817237] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-26 12:39:09.166 Flagger[25512:1817237] Resetting plugins due to page load.
+2014-10-26 12:39:09.591 Flagger[25512:1817237] Finished load of: file:///Users/ronald/Library/Developer/CoreSimulator/Devices/34C5F68A-A0E1-4A36-BC99-036E79B19C98/data/Containers/Bundle/Application/7E08561E-A576-4365-9F2D-454A9865E536/Flagger.app/www/index.html
