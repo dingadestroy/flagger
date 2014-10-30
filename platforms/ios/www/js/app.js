@@ -46,10 +46,10 @@
             };
         }
 	
-	  $('.help-btn').on('click', function() {
+/*	  $('.help-btn').on('click', function() {
         alert("Employee Directory v3.4");
     });
-	
+*/	
     }, false);
 
     /* ---------------------------------- Local Functions ---------------------------------- */

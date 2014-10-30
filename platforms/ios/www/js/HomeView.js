@@ -6,7 +6,7 @@ var HomeView = function (service) {
     this.initialize = function() {
         this.$el = $('<div/>');
         //this.$el.on('keyup', '.search-key', this.findByName);
-	this.$el.on('click','.help-btn', function() {
+	this.$el.on('click','.submitfeed-btn', function() {
         	alert("Flagger v3.4");    } 
 	);
 	//createfeed-btn

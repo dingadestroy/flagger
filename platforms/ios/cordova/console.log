@@ -11,3 +11,22 @@ https://developer.apple.com/icloud/documentation/data-storage/
 
 2014-10-26 12:39:09.166 Flagger[25512:1817237] Resetting plugins due to page load.
 2014-10-26 12:39:09.591 Flagger[25512:1817237] Finished load of: file:///Users/ronald/Library/Developer/CoreSimulator/Devices/34C5F68A-A0E1-4A36-BC99-036E79B19C98/data/Containers/Bundle/Application/7E08561E-A576-4365-9F2D-454A9865E536/Flagger.app/www/index.html
+2014-10-29 23:36:15.093 Flagger[44911:2790721] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/ronald/Library/Developer/CoreSimulator/Devices/34C5F68A-A0E1-4A36-BC99-036E79B19C98/data/Containers/Data/Application/1D645F97-7E59-43A0-8E3F-210B2325D68F/Library/Cookies/Cookies.binarycookies
+2014-10-29 23:36:15.249 Flagger[44911:2790721] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-29 23:36:15.249 Flagger[44911:2790721] Multi-tasking -> Device: YES, App: YES
+2014-10-29 23:36:15.280 Flagger[44911:2790721] Unlimited access to network resources
+2014-10-29 23:36:15.292 Flagger[44911:2790721] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-29 23:36:15.952 Flagger[44911:2790721] [CDVTimer][file] 3.983974ms
+2014-10-29 23:36:15.952 Flagger[44911:2790721] [CDVTimer][TotalPluginStartup] 4.207015ms
+2014-10-29 23:36:16.230 Flagger[44911:2790721] Resetting plugins due to page load.
+2014-10-29 23:36:16.533 Flagger[44911:2790721] Finished load of: file:///Users/ronald/Library/Developer/CoreSimulator/Devices/34C5F68A-A0E1-4A36-BC99-036E79B19C98/data/Containers/Bundle/Application/C91729B3-0BC3-4CE7-97D7-95C929AB6A0C/Flagger.app/www/index.html
+2014-10-29 23:36:49.018 Flagger[44911:2790721] CDVWebViewDelegate: Navigation started when state=1
+2014-10-29 23:36:49.019 Flagger[44911:2790721] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-10-29 23:36:49.884 Flagger[44911:2790721] CDVWebViewDelegate: Navigation started when state=1
+2014-10-29 23:36:49.884 Flagger[44911:2790721] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1

@@ -18,6 +18,12 @@
                         }
                     ]
                 }
+            },
+            "framework": {
+                "parents": {
+                    "AssetsLibrary.framework": [],
+                    "MobileCoreServices.framework": []
+                }
             }
         }
     },

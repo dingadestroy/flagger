@@ -1,9 +1,11 @@
 var CreateFeedView = function(service) {
 	this.initialize = function() {
         this.$el = $('<div/>');
-        this.$el.on('keyup', '.search-key', this.findByName);
+        this.$el.on('click', '.submitfeed-btn', this.sendToDB);
         this.render();
     };
+
+//    document.addEventListener("deviceready", onDeviceReady, false);
    
 /*
     this.initialize = function() {
@@ -17,26 +19,17 @@ var CreateFeedView = function(service) {
         return this;
     };
 
+   
+   this.sendToDB = function() {
+      //  var options = new FileTransfer();
+        var feed = $('.feed-input').val();
+	service.sendFeed(feed);
+	//console.log(feed);
+        //alert(feed);       
+	 };
+
     this.initialize();
 
    
-   this.sendToDB = function() {
-	var feed = $('.search-key').val();
-	$.ajax({
-   		type: "POST",
-   		url: "http://10.147.70.29:5000/feeds/enterfeed",
-   		dataType: "json",
-   		data: {feed: feed},
-   		success: function(data) {
-    		 obj = JSON.parse(data);
-    		 if (obj && obj.success === true) {
-			console.log(obj);
-			alert("success");
-    			 }
-   			},
-  		 error: function(e) {
-     			alert('Error: ' + e.message);
-   			} });
-    		};
 
 }

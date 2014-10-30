@@ -47,9 +47,10 @@ app.all('*', function(req, res, next) {
 app.get('/employees', employees.findAll);
 app.get('/employees/:id', employees.findById);
 app.get('/feeds',employees.findAllFeeds);
-app.post('/feeds/enterfeed', function(request, response){
+app.get('/feeds/enterfeed', function(request, response){
+  var feed = request.query.feed;
   console.log("send feed");
-  console.log(request.body);      // your JSON
+  console.log(feed);      // your JSON
   response.send(request.body);    // echo the result back
 });
 

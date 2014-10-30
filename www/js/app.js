@@ -8,6 +8,9 @@
     EmployeeView.prototype.template = Handlebars.compile($("#employee-tpl").html());
     CreateFeedView.prototype.template = Handlebars.compile($("#createfeed-tpl").html());
     var service = new EmployeeService();
+	var ft;
+    //var options = new FileTransfer();
+   if (ft) { alert("ft ready") }
     service.initialize().done(function () {
         router.addRoute('', function() {
             console.log('empty');
@@ -46,11 +49,21 @@
             };
         }
 	
-/*	  $('.help-btn').on('click', function() {
-        alert("Employee Directory v3.4");
-    });
-*/	
     }, false);
+
+	function onDeviceReady() {
+		var ft = new FileTransfer();
+		alert("ft ready");
+
+    }
+
+        function getFileTransfer(){
+		var ft = new FileTransfer();
+		return ft;
+	};
+
+     
+
 
     /* ---------------------------------- Local Functions ---------------------------------- */
 
