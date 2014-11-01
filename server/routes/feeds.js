@@ -58,3 +58,26 @@ exports.findById = function (req, res, next) {
     res.send(employees[id]);
 };
 
+exports.findAllFeeds = function (req, res, next) {
+    //var name = req.query.name;
+   // console.log('name: ' + name);
+
+    Feed.find(function (err, feeds) {
+ 	 if (err) return console.error(err);
+  	console.log(feeds)
+	res.send(feeds);
+      })
+/*
+    if (name) {
+        console.log('name: ' + name);
+        var results = employees.filter(function(element) {
+            var fullName = element.firstName + " " + element.lastName;
+            return fullName.toLowerCase().indexOf(name.toLowerCase()) > -1;
+        });
+        res.send(results);
+    } else {
+        res.send(employees);
+    }
+*/
+};
+

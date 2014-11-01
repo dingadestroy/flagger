@@ -47,7 +47,7 @@ app.all('*', function(req, res, next) {
 
 app.get('/employees', employees.findAll);
 app.get('/employees/:id', employees.findById);
-app.get('/feeds',employees.findAllFeeds);
+app.get('/feeds',feeds.findAllFeeds);
 app.get('/feeds/enterfeed', feeds.enterFeed);
 /*
 app.get('/feeds/enterfeed', function(request, response){
