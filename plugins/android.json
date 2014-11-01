@@ -17,7 +17,16 @@
             },
             "AndroidManifest.xml": {
                 "parents": {
-                    "/*": []
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
+                            "count": 1
+                        }
+                    ]
                 }
             }
         }
@@ -27,6 +36,9 @@
             "PACKAGE_NAME": "com.ronald.flagger"
         },
         "org.apache.cordova.console": {
+            "PACKAGE_NAME": "com.ronald.flagger"
+        },
+        "org.apache.cordova.geolocation": {
             "PACKAGE_NAME": "com.ronald.flagger"
         }
     },
