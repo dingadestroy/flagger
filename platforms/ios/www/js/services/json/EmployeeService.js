@@ -3,7 +3,7 @@ var EmployeeService = function() {
     var url;
 
     this.initialize = function(serviceURL) {
-        url = serviceURL ? serviceURL : "http://192.168.0.12:5000/employees";
+        url = serviceURL ? serviceURL : "http://10.147.189.140:5000/employees";
         var deferred = $.Deferred();
         deferred.resolve();
         return deferred.promise();
@@ -14,7 +14,7 @@ var EmployeeService = function() {
     }
 
     this.findAll = function(id) {
-        return $.ajax({url: 'http://192.168.0.12:5000/feeds' });
+        return $.ajax({url: 'http://10.147.189.140:5000/feeds' });
     }
 
     this.findByName = function(searchKey) {
@@ -22,6 +22,6 @@ var EmployeeService = function() {
     }
 
    this.sendFeed = function(feed) {
-     return $.ajax({url: 'http://192.168.0.12:5000/feeds/enterfeed' + "?feed=" + feed });
+     return $.ajax({url: 'http://10.147.189.140:5000/feeds/enterfeed' + "?feed=" + feed });
    }
 }

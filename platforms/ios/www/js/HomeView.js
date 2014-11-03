@@ -57,7 +57,7 @@ function errorCallback_highAccuracy(position) {
         return;
     }
     
-    var msg = "<p>Can't get your location (high accuracy attempt). Error = ";
+    var msg = "Can't get your location (high accuracy attempt). Error = ";
     if (error.code == 1)
         msg += "PERMISSION_DENIED";
     else if (error.code == 2)
@@ -68,7 +68,7 @@ function errorCallback_highAccuracy(position) {
 }
 
 function errorCallback_lowAccuracy(position) {
-    var msg = "<p>Can't get your location (low accuracy attempt). Error = ";
+    var msg = "Can't get your location (low accuracy attempt). Error = ";
     if (error.code == 1)
         msg += "PERMISSION_DENIED";
     else if (error.code == 2)
@@ -83,7 +83,7 @@ function errorCallback_lowAccuracy(position) {
 function successCallback(position) {
     var latitude = position.coords.latitude;
     var longitude = position.coords.longitude;
-    alert("<p>Your location is: " + latitude + "," + longitude+" </p><p>Accuracy="+position.coords.accuracy+"m");
+    alert("Your location is: " + latitude + "," + longitude+" </p><p>Accuracy="+position.coords.accuracy+"m");
 }
 
 /*   

@@ -8,9 +8,9 @@
     EmployeeView.prototype.template = Handlebars.compile($("#employee-tpl").html());
     CreateFeedView.prototype.template = Handlebars.compile($("#createfeed-tpl").html());
     var service = new EmployeeService();
-	var ft;
+	//var ft;
     //var options = new FileTransfer();
-   if (ft) { alert("ft ready") }
+   //if (ft) { alert("ft ready") }
     service.initialize().done(function () {
         router.addRoute('', function() {
             console.log('empty');
@@ -30,6 +30,7 @@
         });
 
         router.start();
+
     });
 
     /* --------------------------------- Event Registration -------------------------------- */
@@ -48,23 +49,23 @@
                 );
             };
         }
-	
+
     }, false);
+/*
+  setInterval ( doSomething, 5000 );
 
-	function onDeviceReady() {
-		var ft = new FileTransfer();
-		alert("ft ready");
-
-    }
-
-        function getFileTransfer(){
-		var ft = new FileTransfer();
-		return ft;
-	};
-
-     
-
-
+        function doSomething ()
+        {
+        // (do something here)
+	var feedListView;
+	feedListView = new FeedListView();
+	service.findAll().done(function(feeds) {
+            feedListView.setFeeds(feeds);
+        });
+        console.log("do something");
+        //location.reload();
+        }
+*/
     /* ---------------------------------- Local Functions ---------------------------------- */
 
 }());

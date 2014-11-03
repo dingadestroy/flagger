@@ -80,3 +80,55 @@ https://developer.apple.com/icloud/documentation/data-storage/
 2014-11-01 02:26:30.826 Flagger[53651:3305462] THREAD WARNING: ['Geolocation'] took '13.159912' ms. Plugin should use a background thread.
 2014-11-01 02:26:30.828 Flagger[53651:3305462] locationManager::didFailWithError (null)
 2014-11-01 02:26:31.761 Flagger[53651:3305462] locationManager::didFailWithError (null)
+2014-11-01 02:31:21.846 Flagger[53651:3305462] THREAD WARNING: ['Geolocation'] took '13.979980' ms. Plugin should use a background thread.
+2014-11-01 02:31:21.848 Flagger[53651:3305462] locationManager::didFailWithError (null)
+2014-11-01 02:31:22.831 Flagger[53651:3305462] locationManager::didFailWithError (null)
+2014-11-01 02:31:41.092 Flagger[53927:3310305] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/ronald/Library/Developer/CoreSimulator/Devices/34C5F68A-A0E1-4A36-BC99-036E79B19C98/data/Containers/Data/Application/813BAD9F-28B2-4E66-9E67-546E657855FF/Library/Cookies/Cookies.binarycookies
+2014-11-01 02:31:41.191 Flagger[53927:3310305] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-01 02:31:41.192 Flagger[53927:3310305] Multi-tasking -> Device: YES, App: YES
+2014-11-01 02:31:41.197 Flagger[53927:3310305] Unlimited access to network resources
+2014-11-01 02:31:41.201 Flagger[53927:3310305] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-01 02:31:41.609 Flagger[53927:3310305] Resetting plugins due to page load.
+2014-11-01 02:31:41.805 Flagger[53927:3310305] Finished load of: file:///Users/ronald/Library/Developer/CoreSimulator/Devices/34C5F68A-A0E1-4A36-BC99-036E79B19C98/data/Containers/Bundle/Application/BE127CC6-449F-405D-BAC7-C990E54A6F5F/Flagger.app/www/index.html
+2014-11-01 02:31:45.159 Flagger[53927:3310305] THREAD WARNING: ['Geolocation'] took '15.810059' ms. Plugin should use a background thread.
+2014-11-01 02:31:45.161 Flagger[53927:3310305] locationManager::didFailWithError (null)
+2014-11-01 02:31:46.920 Flagger[53927:3310305] locationManager::didFailWithError (null)
+2014-11-01 02:38:59.048 Flagger[53927:3310305] THREAD WARNING: ['Geolocation'] took '83.787842' ms. Plugin should use a background thread.
+2014-11-01 02:38:59.096 Flagger[53927:3310305] locationManager::didFailWithError (null)
+2014-11-01 02:39:23.076 Flagger[54212:3315354] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/ronald/Library/Developer/CoreSimulator/Devices/34C5F68A-A0E1-4A36-BC99-036E79B19C98/data/Containers/Data/Application/EB24180A-2F8D-4254-B58B-D76EC437778A/Library/Cookies/Cookies.binarycookies
+2014-11-01 02:39:23.407 Flagger[54212:3315354] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-01 02:39:23.408 Flagger[54212:3315354] Multi-tasking -> Device: YES, App: YES
+2014-11-01 02:39:23.474 Flagger[54212:3315354] Unlimited access to network resources
+2014-11-01 02:39:23.483 Flagger[54212:3315354] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-01 02:39:24.412 Flagger[54212:3315354] Resetting plugins due to page load.
+2014-11-01 02:39:24.826 Flagger[54212:3315354] Finished load of: file:///Users/ronald/Library/Developer/CoreSimulator/Devices/34C5F68A-A0E1-4A36-BC99-036E79B19C98/data/Containers/Bundle/Application/6297904F-3479-47D8-AF49-E337D0ADE817/Flagger.app/www/index.html
+2014-11-01 02:39:26.732 Flagger[54212:3315354] THREAD WARNING: ['Geolocation'] took '23.240234' ms. Plugin should use a background thread.
+2014-11-01 02:39:26.734 Flagger[54212:3315354] locationManager::didFailWithError (null)
+2014-11-01 02:39:28.215 Flagger[54212:3315354] locationManager::didFailWithError (null)
+2014-11-02 19:40:38.615 Flagger[4642:89450] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/ronald/Library/Developer/CoreSimulator/Devices/34C5F68A-A0E1-4A36-BC99-036E79B19C98/data/Containers/Data/Application/9A31224C-7394-4071-989F-F7B89C5769D7/Library/Cookies/Cookies.binarycookies
+2014-11-02 19:40:38.740 Flagger[4642:89450] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-02 19:40:38.740 Flagger[4642:89450] Multi-tasking -> Device: YES, App: YES
+2014-11-02 19:40:38.762 Flagger[4642:89450] Unlimited access to network resources
+2014-11-02 19:40:38.772 Flagger[4642:89450] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-02 19:40:39.524 Flagger[4642:89450] Resetting plugins due to page load.
+2014-11-02 19:40:39.829 Flagger[4642:89450] Finished load of: file:///Users/ronald/Library/Developer/CoreSimulator/Devices/34C5F68A-A0E1-4A36-BC99-036E79B19C98/data/Containers/Bundle/Application/1E4C6178-5908-40BA-A52C-1A30C69A662C/Flagger.app/www/index.html
+2014-11-02 19:41:29.385 Flagger[4642:89450] locationManager::didFailWithError (null)
+2014-11-02 19:41:31.405 Flagger[4642:89450] locationManager::didFailWithError (null)

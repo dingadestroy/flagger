@@ -1,17 +1,29 @@
+
 var HomeView = function (service) {
 
     var feedListView;
     var createFeedView = CreateFeedView;
+    console.log("homeview");
+   // this.doTimeout;
 
     this.initialize = function() {
         this.$el = $('<div/>');
         //this.$el.on('keyup', '.search-key', this.findByName);
 	this.$el.on('click','.help-btn', this.addLocation);
+	//this.$el.on('click','.timeout-btn', this.doTimeout);
 	//createfeed-btn
-
+	//this.doTimeout;
       this.$el.on('click','.createfeed-btn', function() {
                 $('body').html(new CreateFeedView(service).render().$el);   }
         );
+	this.$el.on(document ).ready(this.doTimeout
+/*
+	function() {
+	setTimeout('alert(\'Surprise!\')', 5000)
+	console.log("ready");
+}
+*/
+);
 
         feedListView = new FeedListView();
         this.render();
@@ -35,6 +47,22 @@ var HomeView = function (service) {
             feedListView.setFeeds(feeds);
         });
     };
+
+
+   this.doTimeout = function() {
+	//setTimeout('alert(\'Surprise!\')', 5000);
+	setInterval ( doSomething, 5000 );
+	function doSomething ()
+	{
+	console.log("do something");
+	service.findAll().done(function(feeds) {
+            feedListView.setFeeds(feeds);
+        });
+
+	//location.reload();
+	}
+};
+
 
     this.addLocation = function(event) {
 	event.preventDefault();
@@ -86,20 +114,5 @@ function successCallback(position) {
     alert("Your location is: " + latitude + "," + longitude+" </p><p>Accuracy="+position.coords.accuracy+"m");
 }
 
-/*   
-   this.addLocation = function(event) {
-  	event.preventDefault();
-  	navigator.geolocation.getCurrentPosition(
-      	      	function(position) {
-          		alert(position.coords.latitude + ',' + position.coords.longitude);
-      		},
-      		function() {
-          		alert('Error getting location');
-      		},
-		{maximumAge:600000, timeout:5000, enableHighAccuracy: true}
-               );
-  return false;
-};
-*/
     this.initialize();
 }
