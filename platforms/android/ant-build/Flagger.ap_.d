@@ -117,10 +117,7 @@
 /Users/ronald/flagger/flagger/platforms/android/assets/www/lib/jquery.js \
 /Users/ronald/flagger/flagger/platforms/android/assets/www/lib/pageslider.js \
 /Users/ronald/flagger/flagger/platforms/android/assets/www/lib/router.js \
-/Users/ronald/flagger/flagger/platforms/android/assets/www/plugins/com.ququplay.websocket.WebSocket \
 /Users/ronald/flagger/flagger/platforms/android/assets/www/plugins/org.apache.cordova.device \
-/Users/ronald/flagger/flagger/platforms/android/assets/www/plugins/com.ququplay.websocket.WebSocket/www \
-/Users/ronald/flagger/flagger/platforms/android/assets/www/plugins/com.ququplay.websocket.WebSocket/www/phonegap-websocket.js \
 /Users/ronald/flagger/flagger/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
 /Users/ronald/flagger/flagger/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
 /Users/ronald/flagger/flagger/platforms/android/ant-build/AndroidManifest.xml \

@@ -5,7 +5,6 @@
     HomeView.prototype.template = Handlebars.compile($("#home-tpl").html());
     //EmployeeListView.prototype.template = Handlebars.compile($("#employee-list-tpl").html());
     FeedListView.prototype.template = Handlebars.compile($("#feed-list-tpl").html());
-    EmployeeView.prototype.template = Handlebars.compile($("#employee-tpl").html());
     CreateFeedView.prototype.template = Handlebars.compile($("#createfeed-tpl").html());
     var service = new EmployeeService();
 	//var ft;
@@ -17,13 +16,6 @@
             $('body').html(new HomeView(service).render().$el);
         });
 
-        router.addRoute('employees/:id', function(id) {
-            console.log('details');
-            service.findById(parseInt(id)).done(function(employee) {
-                $('body').html(new EmployeeView(employee).render().$el);
-            });
-        });
-        
         router.addRoute('createfeed', function(id) {
             console.log('details');
             $('body').html(new CreateFeedView(service).render().$el);
@@ -51,21 +43,6 @@
         }
 
     }, false);
-/*
-  setInterval ( doSomething, 5000 );
-
-        function doSomething ()
-        {
-        // (do something here)
-	var feedListView;
-	feedListView = new FeedListView();
-	service.findAll().done(function(feeds) {
-            feedListView.setFeeds(feeds);
-        });
-        console.log("do something");
-        //location.reload();
-        }
-*/
     /* ---------------------------------- Local Functions ---------------------------------- */
 
 }());
