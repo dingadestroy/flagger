@@ -12,7 +12,7 @@ db.once('open', function() {
 
 });
 
-mongoose.connect('mongodb://10.147.52.227/test');
+mongoose.connect('mongodb://192.168.0.12/test');
 var flagfeedSchema = new mongoose.Schema({
   uid: String
 , feed: String

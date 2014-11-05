@@ -8,22 +8,18 @@ var HomeView = function (service) {
 
     this.initialize = function() {
         this.$el = $('<div/>');
-        //this.$el.on('keyup', '.search-key', this.findByName);
 	this.$el.on('click','.help-btn', this.addLocation);
-	//this.$el.on('click','.timeout-btn', this.doTimeout);
-	//createfeed-btn
-	//this.doTimeout;
       this.$el.on('click','.createfeed-btn', function() {
                 $('body').html(new CreateFeedView(service).render().$el);   }
         );
-	this.$el.on(document ).ready(this.doTimeout
+	this.$el.on(document ).ready(this.doTimeout);
 /*
 	function() {
 	setTimeout('alert(\'Surprise!\')', 5000)
 	console.log("ready");
 }
 */
-);
+//);
 
         feedListView = new FeedListView();
         this.render();
@@ -33,8 +29,19 @@ var HomeView = function (service) {
         this.$el.html(this.template());
         $('.content', this.$el).html(feedListView.$el);
 	this.findAll();
+	//
+	setInterval(function() {
+	   console.log("autoscroll");
+	   var iScroll = $(window).scrollTop();
+	   iScroll = iScroll + 200;
+	   $('.content', this.$el).html(feedListView.$el).animate({
+							scrollTop: iScroll
+							}, 1000);
+						}, 3000);
+	//
         return this;
     };
+	
 
     this.findByName = function() {
         service.findByName($('.search-key').val()).done(function(employees) {
