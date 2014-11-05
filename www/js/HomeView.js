@@ -33,11 +33,11 @@ var HomeView = function (service) {
 	setInterval(function() {
 	   console.log("autoscroll");
 	   var iScroll = $(window).scrollTop();
-	   iScroll = iScroll + 200;
+	   iScroll = iScroll + 500;
 	   $('.content', this.$el).html(feedListView.$el).animate({
 							scrollTop: iScroll
 							}, 1000);
-						}, 3000);
+						}, 2000);
 	//
         return this;
     };
